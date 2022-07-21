@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1146px;
+    margin: auto;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 51px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-wrapper__menu ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.header-wrapper__logo a {
+    font-size: 24px;
+    font-family: 'M PLUS 1p', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #0F044C;
+    line-height: 43px;
+}
+
+.header-wrapper__menu li a {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #080800;
+    text-decoration: none;
+    margin-right: 46px;
+    letter-spacing: 2px;
+}
+
+.header-wrapper__menu li:last-child a {
+    margin-right: 0px;
+}
+
+.header-wrapper__tel a {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'M PLUS 1p', sans-serif;
+    letter-spacing: 2px;
+    color: #30233D;
+    text-decoration: none;
+}
+
+.header-wrapper__tel a::before {
+    content: url(../images/phone.svg);
+    display: inline-block;
+    width: 21px;
+    height: 29px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    padding-right: 18px;
+}
+
+.hero {
+    background-image: url(../images/home-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 124px 0 127px;
+}
+
+.hero__title {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 80px;
+    color: #FCFCFC;
+    padding-bottom: 21px;
+}
+
+.hero__text {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 143.9%;
+    letter-spacing: 2px;
+    color: #F4F4ED;
+}
+
+.remember {
+    padding: 70px 0 60px;
+}
+
+.remember__name {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A22F32;
+    padding-bottom: 13px;
+}
+
+.remember__texts {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    color: #30233D;
+    max-width: 870px;
+}
+
+.block {
+    padding-bottom: 58px;
+}
+
+.block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.block__block-html {
+    padding: 39px 36px;
+    border: 1px solid #F61067;
+    max-width: 362px;
+}
+
+.block__block-css {
+    padding: 39px 36px;
+    border: 1px solid #F61067;
+    max-width: 362px;
+}
+
+.block__block-bootstrap {
+    padding: 39px 36px;
+    border: 1px solid #F61067;
+    max-width: 362px;
+}
+
+.block h2 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    color: #30233D;
+    padding: 28px 0 12px;
+}
+
+.block p {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #30233D;
+}
+
+.footer-wraper {
+    background-color: #080800;
+    padding: 85px 0 72px;
+}
+
+.footer-wraper__liter p {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FCFCFC;
+}
+
+.footer-wraper .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-wraper li {
+    display: inline-block;
+    margin-left: 22px; 
+    vertical-align: bottom;
+}
+
+.footer-wraper__code {
+    display: block;
+    content: url(../images/code.svg);
+    width: 111px;
+    height: 42px;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+.instagram{
+    display: inline-block;
+    background-image: url(../images/instagram.svg);
+    width: 40px;
+    height: 40px;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+} 
+
+.vk {
+    display: inline-block;
+    background-image: url(../images/vk.svg);
+    width: 40px;
+    height: 40px;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+} 
